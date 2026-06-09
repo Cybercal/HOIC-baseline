@@ -23,24 +23,12 @@ In this repo, we offer two baseline methods for humanoid-object interaction task
 <table>
 <tr>
 <td align="center">
-  <img src="assets/demo/skateboard_sim2sim.gif" width="300"/>
+  <img src="assets/demo/skateboard_sim2sim.gif" width="350"/>
   <br/>
   <b>Skateboard</b>
 </td>
 <td align="center">
-  <img src="assets/demo/box_slopestair_sim2sim.gif" width="300"/>
-  <br/>
-  <b>Box via terrains</b>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img src="assets/demo/skateboard_sim2sim.gif" width="300"/>
-  <br/>
-  <b>Skateboard</b>
-</td>
-<td align="center">
-  <img src="assets/demo/box_slopestair_sim2sim.gif" width="300"/>
+  <img src="assets/demo/box_slopestair_sim2sim.gif" width="350"/>
   <br/>
   <b>Box via terrains</b>
 </td>
