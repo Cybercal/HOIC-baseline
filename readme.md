@@ -7,10 +7,10 @@ In this repo, we offer two baseline methods for humanoid-object interaction task
 [[arXiv]](https://arxiv.org/abs/2602.11758)
 [[code]](https://github.com/ldt29/HAIC)
 
-2. **Arxiv 2026:** VAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model
-[[project page]](https://haic-humanoid.github.io/) 
-[[arXiv]](https://arxiv.org/abs/2602.11758)
-[[code]](https://github.com/ldt29/HAIC)
+2. **Arxiv 2026:** VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands
+[[project page]](https://vaic-humanoid.github.io/) 
+[[arXiv]](https://arxiv.org/abs/2606.09286)
+[[code]](https://github.com/ldt29/VAIC)
 
 ## Demo
 
@@ -153,7 +153,9 @@ If you find our work useful for your research, please consider citing us:
 }
 
 @article{li2026vaic,
-  title = {VAIC: To do}
+  title = {VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands},
+  author = {Dongting Li, Qianyang Wu, Xingyu Chen, Liang Li, Yuhang Lin, Sikai Wu, Guoyao Zhang, Mingliang Zhou, Diyun Xiang, Qiang Zhang, Renjing Xu, Jianzhu Ma},
+  journal = {arXiv preprint arXiv:2606.09286},
   year = {2026}
 }
 
