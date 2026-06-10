@@ -154,7 +154,7 @@ If you find our work useful for your research, please consider citing us:
 
 @article{li2026vaic,
   title = {VAIC: Vision-Guided Humanoid Agile Object Interaction Control via Decoupled Commands},
-  author = {Dongting Li, Qianyang Wu, Xingyu Chen, Liang Li, Yuhang Lin, Sikai Wu, Guoyao Zhang, Mingliang Zhou, Diyun Xiang, Qiang Zhang, Renjing Xu, Jianzhu Ma},
+  author = {Li, Dongting and Wu, Qianyang and Chen, Xingyu and Li, Liang and Lin, Yuhang and Wu, Sikai and Zhang, Guoyao and Zhou, Mingliang and Xiang, Diyun and Zhang, Qiang and Xu, Renjing and Ma, Jianzhu},
   journal = {arXiv preprint arXiv:2606.09286},
   year = {2026}
 }
