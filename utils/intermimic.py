@@ -139,8 +139,14 @@ class InterMimicRod:
 
     def _build_policy_feed(self, obs_dict):
         feed = {}
+        INPUT_NAME_MAPPING = {
+            "object_geo_": "object_geo", 
+        }
         for input_info in self.policy_inputs:
             if input_info.name not in obs_dict:
+                if input_info.name in INPUT_NAME_MAPPING and INPUT_NAME_MAPPING[input_info.name] in obs_dict:
+                    feed[input_info.name] = self._match_input_shape(obs_dict[INPUT_NAME_MAPPING[input_info.name]], input_info)
+                    continue
                 raise KeyError(f"Policy expects input '{input_info.name}', available inputs: {sorted(obs_dict)}")
             feed[input_info.name] = self._match_input_shape(obs_dict[input_info.name], input_info)
         return feed
