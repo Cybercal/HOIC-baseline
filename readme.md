@@ -1,6 +1,6 @@
 # Humanoid-Object Interaction Baseline
 
-In this repo, we offer two baseline methods for humanoid-object interaction task:
+In this repo, we offer two baseline methods for simple humanoid-object interaction task. Feel free to test our designed HOI task Success Rate (SR%) in simulator for your research. If you want to apply our framework to your task setting, we also release our training code:
 
 1. **RSS 2026:** HAIC: Humanoid Agile Object Interaction Control via Dynamics-Aware World Model
 [[project page]](https://haic-humanoid.github.io/) 
@@ -12,12 +12,14 @@ In this repo, we offer two baseline methods for humanoid-object interaction task
 [[arXiv]](https://arxiv.org/abs/2606.09286)
 [[code]](https://github.com/ldt29/VAIC)
 
+
+
 ## Demo
 
 | Method | Motion Reference | Extra Sensor Dependency | Core observation |
 | --- | --- | --- | --- |
 | HAIC | robot-object pairs | Does not depend on extra sensors | Reference motion |
-| VAIC | reference-free | Uses visual input | depth camera |
+| VAIC | reference-free | Uses visual input to adapt objects | ego depth image |
 
 
 <table>
@@ -35,6 +37,9 @@ In this repo, we offer two baseline methods for humanoid-object interaction task
 </tr>
 </table>
 
+
+- [x] Release the HAIC policy for its sim2sim performance on HOI task.
+- [ ] Release the VAIC policy for its sim2sim performance on HOI task.
 
 
 ## Quick Start
