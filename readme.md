@@ -1,4 +1,4 @@
-# Humanoid-Object Interaction Baseline
+# Humanoid-Object Interaction Controller Baseline
 
 In this repo, we offer two baseline methods for simple humanoid-object interaction task. Feel free to test our designed HOI task Success Rate (SR%) in simulator for your research. If you want to apply our framework to your task setting, we also release our training code:
 
