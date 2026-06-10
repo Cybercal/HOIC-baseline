@@ -19,7 +19,7 @@ VIDEO_PLAYBACK_SPEED = 2.0
 
 TASKS = {
     "box_plane": {
-        "policy": "controller/policy/haic/box_plane/policy-ae9y7jek-final.onnx",
+        "policy": "controller/policy/haic/box_plane/policy-hbrlhotq-final.onnx",
         "motion": "controller/motion/mirobotA/box_1",
         "xml": "assets/robots/g1/g1_29dof_rev_1_0_box.xml",
     },
